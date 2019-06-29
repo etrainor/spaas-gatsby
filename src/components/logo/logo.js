@@ -1,7 +1,7 @@
 import React from "react"
-import logo from "../images/SPAAS.png" // Tell Webpack this JS file uses this image
-import "./reset.scss"
-import "./logo.scss"
+import logo from "../../images/SPAAS.png" // Tell Webpack this JS file uses this image
+import "../reset/reset.scss"
+import "../logo/logo.scss"
 
 console.log(logo) // /logo.84287d09.png
 

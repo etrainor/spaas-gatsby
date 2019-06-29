@@ -1,8 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Logo from "./logo"
-import "./header.scss"
+import Logo from "../logo/logo"
+import "../header/header.scss"
 
 {/* <header class="site-header">
 
@@ -28,24 +28,15 @@ import "./header.scss"
 </header> */}
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <Logo />
-      <h1>
-        <Link to="/">
-          {siteTitle}
-        </Link>
-      </h1>
+  <header>
+    <div>
+      <Link to="/">
+        <Logo/>
+      </Link>
+      <h1>{siteTitle}</h1>
+    </div>
+    <div>
+      <a href="https://httpstatusdogs.com/img/307.jpg">Client Portal</a>
     </div>
   </header>
 )
