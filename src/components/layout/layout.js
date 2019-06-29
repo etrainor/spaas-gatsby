@@ -13,6 +13,8 @@ import "../reset/reset.scss"
 import Header from "../header/header"
 import Navigation from "../navigation/navigation";
 import Banner from "../banner/banner"
+import Page from '../page/page';
+import content from '../content/content.json';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,6 +32,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <Navigation />
       <Banner />
+      <Page content={this.state.content} />;
       <div
         style={{
           margin: `0 auto`,
