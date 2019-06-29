@@ -4,15 +4,6 @@ import React from "react"
 import Logo from "../logo/logo"
 import "../header/header.scss"
 
-{/* <header class="site-header">
-
-<div id="logo-banner">
-  <a href="#">
-    <img id="logo" src="./assets/SPAAS.png">
-  </a>
-  <h1 id="title">Sound Parent Advocacy and Advisory Service</h1>
-</div>  */}
-
 {/* <nav>
   <ul className="navigation">
     <li><a title="Menu" onclick="toggleMenu()">☰ Menu</a>
@@ -34,9 +25,6 @@ const Header = ({ siteTitle }) => (
         <Logo/>
       </Link>
       <h1>{siteTitle}</h1>
-    </div>
-    <div>
-      <a href="https://httpstatusdogs.com/img/307.jpg">Client Portal</a>
     </div>
   </header>
 )
