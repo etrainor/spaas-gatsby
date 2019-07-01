@@ -11,7 +11,7 @@ header {
   div {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 5rem auto;
+    grid-template-columns: 10rem auto;
     grid-template-areas:
       "img h1";
 
@@ -24,7 +24,7 @@ header {
       margin: 0 0 0 1rem;
       color: var(--dark-background-color);
       font-family: var(--major-text-font);
-      font-size: 2.75rem;
+      font-size: 3.5rem;
       align-self: center;
       justify-self: start;
       padding-top: .75rem;

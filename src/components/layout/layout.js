@@ -13,8 +13,10 @@ import "../reset/reset.scss"
 import Header from "../header/header"
 import Navigation from "../navigation/navigation";
 import Banner from "../banner/banner"
-import Page from '../page/page';
-import content from '../content/content.json';
+// import Page from '../page/page';
+// import content from '../content/content.json';
+// import Deck from "../deck/deck"
+import MainPage from "../content/main-page/main-page"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -32,23 +34,15 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <Navigation />
       <Banner />
-      <Page content={this.state.content} />;
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()} Sound Parent Advocacy and Advisory Service, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-          {` `} by <a href="https://erintrainor.me">Erin Trainor </a>
-        </footer>
-      </div>
+      <main>
+        <MainPage/>
+      </main>
+      <footer>
+        © {new Date().getFullYear()} Sound Parent Advocacy and Advisory Service, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        {` `} by <a href="https://erintrainor.me">Erin Trainor </a>
+      </footer>
     </>
   )
 }
