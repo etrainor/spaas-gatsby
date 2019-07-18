@@ -5,13 +5,13 @@ function Form () {
   return (
     <>
       <div classname="contact-form">
-      
+
         <div>
           <h1>Contact Us</h1>
-          <h3>Have a question or want to learn more about our services? We would love to hear from you. Send us a message and we will respond as soon as possible</h3>
+          <h3>Have a question or want to learn more about our services? We would love to hear from you. Send us a message and we will respond as soon as possible.</h3>
         </div>
 
-        <form method="post" action="https://formspree.io/trainor.erin@gmail.com">
+        <form method="post" action="https://formspree.io/trainor.erin@gmail.com"> {/* change sendto email address here! */}
           <div>
 
             <label>
