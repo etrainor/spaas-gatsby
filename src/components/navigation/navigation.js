@@ -17,8 +17,8 @@ function Navigation () {
         {/* <li><a href="https://httpstatusdogs.com/img/307.jpg">Testimonials</a></li> */}
         <li><a href="https://httpstatusdogs.com/img/404.jpg">Resources</a></li>
         <li><a href="https://httpstatusdogs.com/img/404.jpg">Blog</a></li>
-        <li><a href="https://httpstatusdogs.com/img/307.jpg">Client Portal</a></li>
-        <li><a href="https://httpstatusdogs.com/img/307.jpg">Contact</a></li>
+        {/* <li><a href="https://httpstatusdogs.com/img/307.jpg">Client Portal</a></li> */}
+        <li><a href="/contact-form">Contact</a></li>
       </ul>
     </nav>
   )
