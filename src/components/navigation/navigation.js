@@ -10,8 +10,8 @@ function Navigation () {
     <nav>
       <ul className="navigation">
         {/* <li><a title="Menu" onclick="toggleMenu()">☰ Menu</a></li> */}
-        <li><a className="active" href="/">Home</a></li>
-        <li><a href="https://httpstatusdogs.com/img/204.jpg">About</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about-us">About</a></li>
         {/* <li><a href="form.html">Form</a></li> */}
         {/* <li><a href="https://httpstatusdogs.com/img/307.jpg">How it Works</a></li> */}
         {/* <li><a href="https://httpstatusdogs.com/img/307.jpg">Testimonials</a></li> */}

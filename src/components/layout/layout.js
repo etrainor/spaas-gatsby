@@ -17,6 +17,7 @@ import Banner from "../banner/banner"
 // import content from '../content/content.json';
 // import Deck from "../deck/deck"
 import MainPage from "../content/main-page/main-page"
+import Footer from "../footer/footer"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -37,12 +38,7 @@ const Layout = ({ children }) => {
       <main>
         <MainPage/>
       </main>
-      <footer>
-        © {new Date().getFullYear()} Sound Parent Advocacy and Advisory Service, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-        {` `} by <a href="https://erintrainor.me">Erin Trainor </a>
-      </footer>
+      <Footer />
     </>
   )
 }

@@ -5,9 +5,9 @@ import Header from "../components/header/header"
 import Navigation from "../components/navigation/navigation"
 import SEO from "../components/seo/seo"
 
-const AdvisoryPage = () => (
+const AboutPage = () => (
     <>
-      <SEO title="Advisory Services" />
+      <SEO title="About Us" />
       <Header />
       <Navigation />
       <main>
@@ -16,4 +16,4 @@ const AdvisoryPage = () => (
     </>
 )
 
-export default AdvisoryPage
+export default AboutPage
