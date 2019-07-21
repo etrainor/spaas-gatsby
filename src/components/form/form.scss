@@ -106,49 +106,56 @@ div.contact-form {
             li{
               text-align: center;
               display:flex;
-              label{
-                  // display: inline-block;
-                  background-color: var(--white-color);
-                  border: 2px inset var(--light-background-color);
-                  color: var(--major-text-color);
-                  // border-radius: 25px;
-                  // white-space: nowrap;
-                  text-align: center;
-                  // margin: 3px 3px;
-                  -webkit-touch-callout: none;
-                  -webkit-user-select: none;
-                  -moz-user-select: none;
-                  -ms-user-select: none;
-                  user-select: none;
-                  -webkit-tap-highlight-color: transparent;
-                  // transition: all .2s;
-                  padding: 1rem 6rem;
-                  cursor: pointer;
-              }
-              label::before {
-                  // display: inline-block;
-                  font-style: normal;
-                  font-variant: normal;
-                  text-rendering: auto;
-                  -webkit-font-smoothing: antialiased;
-                  // font-family: "Font Awesome 5 Free";
-                  // font-weight: 900;
-                  // font-size: 12px;
-                  // padding: 2px 6px 2px 2px;
-                  // content: "\f067";
-                  // transition: transform .3s ease-in-out;
-              }
-              label:hover {
-                border: 2px solid var(--accent-color);
-                background-color: var(--accent-color);
-                color: var(--white-color);
+
+              label.check-box-label-container {
+                margin: 0;
+                background-color: none;
+                // opacity: 0;
+                padding: 0;
+                border: none;
+
+                .check-me {
+                  width: 12%;
+                }
+                .check-box-label{
+                    // display: inline-block;
+                    background-color: var(--white-color);
+                    border: 2px inset var(--light-background-color);
+                    color: var(--major-text-color);
+                    // border-radius: 25px;
+                    // white-space: nowrap;
+                    text-align: center;
+                    // margin: 3px 3px;
+                    -webkit-touch-callout: none;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    -webkit-tap-highlight-color: transparent;
+                    // transition: all .2s;
+                    padding: 1rem 6rem;
+                    cursor: pointer;
+                }
+                .check-box-label::before {
+                    // display: inline-block;
+                    font-style: normal;
+                    font-variant: normal;
+                    text-rendering: auto;
+                    -webkit-font-smoothing: antialiased;
+                    // font-family: "Font Awesome 5 Free";
+                    // font-weight: 900;
+                    // font-size: 12px;
+                    // padding: 2px 6px 2px 2px;
+                    // content: "\f067";
+                    // transition: transform .3s ease-in-out;
+                }
               }
               // input[type="checkbox"]:checked + label::before {
               //     // content: "\f00c";
               //     // transform: rotate(-360deg);
               //     // transition: transform .3s ease-in-out;
               // }
-              input[type="checkbox"]:checked + label {
+              input[type="checkbox"]:checked + label.check-box-label {
                   border: 2px solid var(--accent-color);
                   background-color: var(--accent-color);
                   color: var(--white-color);
@@ -223,6 +230,9 @@ div.contact-form {
         font-size: 2rem;
         align-items: center;
         padding: .6rem 3rem .2rem 3rem;
+      }
+      button:focus {
+        outline:0;
       }
     }
   }

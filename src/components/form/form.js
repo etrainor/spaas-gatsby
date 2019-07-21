@@ -47,17 +47,24 @@ function Form () {
               <div className="container">
                 <ul className="option-list">
                   <li>
-                    <input type="checkbox" id="checkboxOne" value="Advocacy"/>
-                    <label htmlFor="checkboxOne">Advocacy</label>
-                    </li>
+                    <label className = "check-box-label-container">
+                      <input className = "check-me" type="checkbox" id="checkboxOne" value="Selected" name="advocacy"/>
+                      <label className = "check-box-label" htmlFor="checkboxOne">Advocacy</label>
+                    </label>
+                  </li>
                   <li>
-                    <input type="checkbox" id="checkboxTwo" value="Advisory"/>
-                    <label htmlFor="checkboxTwo">Advisory</label>
-                    </li>
+                    <label className = "check-box-label-container">
+                      <input className = "check-me" type="checkbox" id="checkboxTwo" value="Selected" name="advisory"/>
+                      <label className = "check-box-label" htmlFor="checkboxTwo">
+                      Advisory</label>
+                    </label>
+                  </li>
                   <li>
-                    <input type="checkbox" id="checkboxThree" value="Other"/>
-                    <label htmlFor="checkboxThree">Other</label>
-                    </li>
+                    <label className = "check-box-label-container">
+                      <input className = "check-me" type="checkbox" id="checkboxThree" value="Selected" name="other"/>
+                      <label className = "check-box-label" htmlFor="checkboxThree">Other</label>
+                    </label>
+                  </li>
                 </ul>
               </div>
 
