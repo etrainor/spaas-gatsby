@@ -4,7 +4,7 @@ import "../form/form.scss"
 function Form () {
   return (
     <>
-      <div classname="contact-form">
+      <div className="contact-form">
 
         <div>
           <h1>Contact Us</h1>
@@ -15,7 +15,7 @@ function Form () {
           <div>
 
             <label>
-              <h3>Name</h3><p classname="asterisk">*</p>
+              <h3>Name</h3>
               <input type="text" name="name" id="name" required/>
             </label>
 
@@ -29,48 +29,41 @@ function Form () {
           <div>
 
             <label>
-              <h3>Email</h3><p classname="asterisk">*</p>
+              <h3>Email</h3>
               <input type="email" name="email" id="email" required/>
             </label>
 
             <label>
-              <h3>Age/Grade of Child</h3>
+              <h3>Grade of Child</h3>
               <input type="text" name="child-age" id="child-age" />
             </label>
 
           </div>
 
-          <div>
-
-            <div>
+          <div id= "services-container">
 
               <h2>Service Requested</h2>
 
-              <label>
-                <input type="checkbox" name="advising" id="advising" />
-                <h3>Advising</h3>
-              </label>
-
-              <label>
-                <input type="checkbox" name="advocacy" id="advocacy" />
-                <h3>Advocacy</h3>
-              </label>
-
-              <label>
-                <input type="checkbox" name="other" id="other" />
-                <h3>Other</h3>
-              </label>
-              
-            </div>
-
-            <label>
-              <h3>School District</h3>
-              <input type="text" name="school-district" id="school-district" />
-            </label>
+              <div className="container">
+                <ul className="option-list">
+                  <li>
+                    <input type="checkbox" id="checkboxOne" value="Advocacy"/>
+                    <label htmlFor="checkboxOne">Advocacy</label>
+                    </li>
+                  <li>
+                    <input type="checkbox" id="checkboxTwo" value="Advisory"/>
+                    <label htmlFor="checkboxTwo">Advisory</label>
+                    </li>
+                  <li>
+                    <input type="checkbox" id="checkboxThree" value="Other"/>
+                    <label htmlFor="checkboxThree">Other</label>
+                    </li>
+                </ul>
+              </div>
 
           </div>
 
-          <div>
+          <div className = "subject">
 
             <label>
               <h3>Subject</h3>
@@ -79,16 +72,16 @@ function Form () {
 
           </div>
 
-          <div>
+          <div className = "message">
 
             <label>
-              <h3>Message</h3><p classname="asterisk">*</p>
+              <h3>Message</h3>
               <textarea name="message" id="message" rows="5" required/>
             </label>
 
           </div>
 
-          <div>
+          <div className="send-button">
             <button type="submit">Send</button>
             {/* <input type="reset" value="Clear" /> */}
             <input type="text" name="_gotcha" style={{display:"none"}} />
