@@ -30,7 +30,6 @@ div.contact-form {
     display: flex;
     flex-direction: column;
     padding: 0 2.5rem 0 2.5rem;
-    // border: 2px red solid;
 
     div {
       width: 100%;
@@ -42,19 +41,13 @@ div.contact-form {
 
       label {
         width: 50%;
-        // flex-wrap: wrap;
         display: flex;
         flex-direction: row;
-        // justify-content: start;
         align-items: center;
-        // margin: 2rem;
         h3 {
-          // width: 195px;
-          // text-align: start;
           margin: 0;
           flex-grow: 1;
           text-align: center;
-          // padding-right: 1rem;
         }
         input {
           width: 60%;
@@ -69,7 +62,6 @@ div.contact-form {
           text-align: center;
           font-family: var(--minor-text-font);
           color: var(--accent-color);
-          // align-self: flex-start;
 
         }
         input:focus {
@@ -89,7 +81,6 @@ div.contact-form {
         align-items: center;
         color: var(--white-color);
         padding: 1.5rem;
-        // border-bottom: 1px var(--white-color) solid;
       }
       .container {
         width: 100%;
@@ -110,7 +101,6 @@ div.contact-form {
               label.check-box-label-container {
                 margin: 0;
                 background-color: none;
-                // opacity: 0;
                 padding: 0;
                 border: none;
 
@@ -118,48 +108,32 @@ div.contact-form {
                   width: 12%;
                 }
                 .check-box-label{
-                    // display: inline-block;
                     background-color: var(--white-color);
                     border: 2px inset var(--light-background-color);
                     color: var(--major-text-color);
-                    // border-radius: 25px;
-                    // white-space: nowrap;
                     text-align: center;
-                    // margin: 3px 3px;
                     -webkit-touch-callout: none;
                     -webkit-user-select: none;
                     -moz-user-select: none;
                     -ms-user-select: none;
                     user-select: none;
                     -webkit-tap-highlight-color: transparent;
-                    // transition: all .2s;
                     padding: 1rem 6rem;
                     cursor: pointer;
                 }
                 .check-box-label::before {
-                    // display: inline-block;
                     font-style: normal;
                     font-variant: normal;
                     text-rendering: auto;
                     -webkit-font-smoothing: antialiased;
-                    // font-family: "Font Awesome 5 Free";
-                    // font-weight: 900;
-                    // font-size: 12px;
-                    // padding: 2px 6px 2px 2px;
-                    // content: "\f067";
-                    // transition: transform .3s ease-in-out;
+                  
                 }
               }
-              // input[type="checkbox"]:checked + label::before {
-              //     // content: "\f00c";
-              //     // transform: rotate(-360deg);
-              //     // transition: transform .3s ease-in-out;
-              // }
+            
               input[type="checkbox"]:checked + label.check-box-label {
                   border: 2px solid var(--accent-color);
                   background-color: var(--accent-color);
                   color: var(--white-color);
-                  // transition: all .2s;
               }
               input[type="checkbox"] {
                 display: absolute;
