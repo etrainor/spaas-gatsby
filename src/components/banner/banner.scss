@@ -1,0 +1,13 @@
+.banner {
+  .banner-photo {
+    background-image: url('../../images/banner-background.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 25rem;
+
+  }
+  div {
+    height: 3rem;
+    background-color: var( --dark-background-color);
+  }
+}

@@ -1,0 +1,28 @@
+nav {
+  background-color: var(--dark-background-color);
+  font-family: var(--minor-text-font);
+  min-height: 3rem;
+  
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    li {
+      padding: 1rem 1rem;
+      text-align: center;
+      margin: 0;
+      width: 6.5rem;
+
+      a{
+        text-decoration: none;
+        color: var(--white-color);
+      }
+
+    }
+    li:hover {
+      background-color: var(--accent-color); 
+    }
+
+  }
+}
