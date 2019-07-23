@@ -15,6 +15,12 @@ function Navigation () {
         {/* <li><a href="form.html">Form</a></li> */}
         {/* <li><a href="https://httpstatusdogs.com/img/307.jpg">How it Works</a></li> */}
         {/* <li><a href="https://httpstatusdogs.com/img/307.jpg">Testimonials</a></li> */}
+        <li>Services
+          <ul className="dropdown-menu">
+            <li><a href="/advisory-services">Advisory</a></li>
+            <li><a href="/advocacy-services">Advocacy</a></li>
+          </ul>
+        </li>
         <li><a href="https://httpstatusdogs.com/img/404.jpg">Resources</a></li>
         <li><a href="https://httpstatusdogs.com/img/404.jpg">Blog</a></li>
         {/* <li><a href="https://httpstatusdogs.com/img/307.jpg">Client Portal</a></li> */}
