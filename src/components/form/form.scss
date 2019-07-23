@@ -1,10 +1,10 @@
 div.contact-form {
   background-color: var(--light-background-color);
   border: 2px solid var(--accent-color);
+  box-shadow: 2px 2px 3px var(--accent-color);
   word-wrap: normal;
   width: 70vw;
   color: var(--major-text-color);
-  box-shadow: 2px 2px 3px var(--accent-color);
   margin: 3rem auto auto auto;
   
   div {
