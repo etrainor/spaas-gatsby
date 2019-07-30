@@ -5,6 +5,7 @@ import Header from "../components/header/header"
 import Navigation from "../components/navigation/navigation"
 import SEO from "../components/seo/seo"
 import Form from "../components/form/form"
+import Footer from "../components/footer/footer"
 
 const ContactPage = () => (
     <>
@@ -14,6 +15,7 @@ const ContactPage = () => (
       <main>
         <Form />
       </main>
+      <Footer />
     </>
 )
 

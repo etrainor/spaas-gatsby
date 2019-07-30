@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Header from "../components/header/header"
 import Navigation from "../components/navigation/navigation"
 import SEO from "../components/seo/seo"
+import Footer from "../components/footer/footer"
 
 const AboutPage = () => (
     <>
@@ -13,6 +14,7 @@ const AboutPage = () => (
       <main>
         please show something!!
       </main>
+      <Footer />
     </>
 )
 
