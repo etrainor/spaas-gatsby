@@ -1,14 +1,13 @@
 .main-deck {
   display: grid;
-  grid-template-rows: 100vw;
   grid-template-columns: 30% 30% 30%;
   grid-column-gap: 2.5%;
   grid-template-areas:
   ".card .card .card";
   color: black;
-  // border: 2px solid black;
   margin: auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 100vw;
   margin-left: 2.5%;
 
@@ -18,7 +17,7 @@
     font-family: var(--minor-text-font);
     text-align: center;
     box-shadow: 2px 2px 3px var(--accent-color);
-    height: 300px;
+    flex-grow: 1;
     
     h2 {
       font-family: var(--major-text-font);
@@ -32,12 +31,15 @@
       
     }
     button {
-      background-color: var(--accent-color);
+      background-color: var(--dark-background-color);
+      box-shadow: 2px 2px 3px var(--dark-background-color);
       border-radius: .5rem;
-      font-family: var(--major-text-font);
-      padding: .1rem .5rem;
+      padding: .3rem 2rem;
       font-weight: bold;
       margin-top: 1rem;
+      font-family: var(--major-text-font);
+      font-size: 1rem;
+      margin-bottom: 2rem;
       a {
         text-decoration: none;
         color: var(--white-color);

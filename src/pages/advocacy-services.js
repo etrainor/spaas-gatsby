@@ -6,6 +6,7 @@ import Navigation from "../components/navigation/navigation"
 import SEO from "../components/seo/seo"
 // import "../components/layout/layout.css"
 import Advocacy from "../components/content/advocacy-page/advocacy-page"
+import Footer from "../components/footer/footer"
 
 const AdvisoryPage = () => (
     <>
@@ -15,6 +16,7 @@ const AdvisoryPage = () => (
       <main>
         <Advocacy />
       </main>
+      <Footer />
     </>
 )
 

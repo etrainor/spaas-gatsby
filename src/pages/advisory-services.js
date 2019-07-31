@@ -5,6 +5,7 @@ import Header from "../components/header/header"
 import Navigation from "../components/navigation/navigation"
 import SEO from "../components/seo/seo"
 import Advisory from "../components/content/advisory-page/advisory-page"
+import Footer from "../components/footer/footer"
 
 
 const AdvisoryPage = () => (
@@ -15,6 +16,7 @@ const AdvisoryPage = () => (
       <main>
         <Advisory />
       </main>
+      <Footer />
     </>
 )
 
