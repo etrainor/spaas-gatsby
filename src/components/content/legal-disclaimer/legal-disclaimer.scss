@@ -1,0 +1,22 @@
+.legal-disclaimer {
+  padding: 4rem;
+  font-family: var(--minor-text-font);
+  line-height: 2rem;
+
+  h1 {
+    font-family: var(--major-text-font);
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+  }
+
+  p {
+    padding: .5rem 0;
+    font-size: 1.25rem;
+
+    a {
+      text-decoration: none;
+      color: var(--accent-color);
+    }
+  }
+
+}
