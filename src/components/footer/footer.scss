@@ -4,13 +4,32 @@
   color: var(--white-color);
   display: flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-    a {  
-    text-decoration: none;
-    &:visited {
-      color: white;
-    }
+    div {
+      font-family: var(--minor-text-font);
+      display: flex;
+      flex-direction: row;
+      a {  
+        text-decoration: none;
+        color: var(--white-color);
+        &:visited {
+          color: var(--white-color);
+        }
+        cursor: pointer;
+
+        }
+    }  
+
+    .footer-links {
+      width: 25vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 1rem;
+      p {
+        color: var(--white-color);
+      }
     }
 
 }
