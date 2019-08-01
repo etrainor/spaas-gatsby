@@ -11,7 +11,7 @@ function Form () {
           <h3>Have a question or want to learn more about our services? We would love to hear from you. Send us a message and we will respond as soon as possible.</h3>
         </div>
 
-        <form method="post" action="https://formspree.io/trainor.erin@gmail.com"> {/* change sendto email address here! */}
+        <form method="post" action="https://formspree.io/karen.sumner@spaas.org"> {/* change sendto email address here! */}
           <div>
 
             <label>
