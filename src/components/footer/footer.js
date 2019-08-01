@@ -9,8 +9,8 @@ function Footer () {
         © {new Date().getFullYear()} Sound Parent Advocacy and Advisory Service
       </div>
       <div className="footer-links">
-        <a href="">Privacy Policy</a>
-        <a href="">Legal Disclaimer</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/disclaimer">Legal Disclaimer</a>
         <a href="">Contact</a>
       </div>
       <div className="site-design">
