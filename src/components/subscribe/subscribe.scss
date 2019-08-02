@@ -1,0 +1,105 @@
+.signup {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  
+  .success-msg {
+    background-color: var(--accent-color);
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 3px var(--dark-background-color);
+    // border: 2px solid var(--white-color);
+    
+    p {
+      font-family: var(--minor-text-font);
+      color: var(--white-color);
+      font-size: 2rem;
+      padding: 4rem;
+    }
+  
+  }
+}
+.newsletter-signup {
+  background-color: var(--accent-color);
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 3px var(--dark-background-color);
+  // border: 2px solid var(--white-color);
+
+  span {
+    font-family: var(--major-text-font);
+    color: var(--white-color);
+    font-size: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
+  }
+
+  form {
+    margin-bottom: 2rem;
+    div {
+      // margin-bottom: 2rem;
+      display: flex;
+      flex-direction: row;
+
+      input {
+        text-align: center;
+        padding: .4rem 4rem;
+        font-family: var(--minor-text-font);
+        font-size: 1.3rem;
+        border: 2px inset var(--light-background-color);
+        background-color: var(--white-color);
+        color: var(--major-text-color);
+      }
+      input:focus {
+        outline:0;
+      }
+
+      button {
+        background-color: var(--dark-background-color);
+        border: 2px outset var(--light-background-color);
+        box-shadow: 2px 2px 3px var(--dark-background-color);
+        color: var(--white-color);
+        font-family: var(--major-text-font);
+        font-size: 1rem;
+        width: 50%;
+        align-self: center;
+        margin-left: 1rem;
+        padding: .4rem 3rem;
+        font-size: 1.3rem;
+        border-radius: .5rem;
+
+      }
+      button:focus {
+        outline:0;
+      }
+      // button:hover {
+      //   background-color: var(--white-color);
+      //   border: 2px outset var(--light-background-color);
+      //   box-shadow: 2px 2px 3px var(--dark-background-color);
+      //   color: var(--dark-text-color);
+
+        
+      // }
+
+    }
+        .error {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          margin-top: .5rem;
+          
+          .error-msg {
+            padding-left: 5.2rem;
+            text-align: start;
+            font-family: var(--minor-text-font);
+            color: var(--white-color);
+            font-size: 1rem;
+          }
+  
+        }
+
+      }
+    }

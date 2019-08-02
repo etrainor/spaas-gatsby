@@ -54,5 +54,11 @@
         color: var(--white-color);
       }
     }
+
+    button:hover {
+      background-color: var(--accent-color);
+      color: var(--dark-text-color);
+      
+    }
   }
 }

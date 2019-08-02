@@ -28,6 +28,12 @@ module.exports = {
         icon: `src/images/SPAAS.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://gmail.us3.list-manage.com/subscribe/post?u=e8a7ad2175f6f69a72b4ff3b1&amp;id=e0ac84fe84', // see instructions at official plugin page
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
