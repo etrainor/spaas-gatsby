@@ -1,7 +1,7 @@
 import React from "react"
 import "../main-page/main-page.scss"
 import { Link } from "gatsby"
-import Mailchimp from "../../post-template-details"
+// import Mailchimp from "../../post-template-details"
 
 function MainPage () {
   return (
@@ -23,7 +23,6 @@ function MainPage () {
           <button><Link to="/advisory-services">Learn More</Link></button>
         </div>
       </div>
-      {/* <Mailchimp /> */}
     </>
   )
 }
