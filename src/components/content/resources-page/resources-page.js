@@ -95,7 +95,7 @@ function Resources () {
           <ul>
             <li><a href="https://www.seattletimes.com/education-lab/for-some-washington-students-with-special-needs-diagnosis-comes-too-late/" target="_blank">For some Washington Students with special needs, diagnosis is too late, help is too little</a> - Seattle Times, July 9, 2019</li>
             <li><a href="/https://www.seattletimes.com/education-lab/why-washington-is-suddenly-paying-more-attention-to-its-25500-paraeducators/" target="_blank">‘Basically I’m their teacher’: Washington has big plans for its 25,500 school paraeducators</a> - Seattle Times, July 28, 2019</li>
-            <li><a href="https://www.seattletimes.com/education-lab/students-with-dyslexia-struggle-in-washington-will-a-fresh-approach-to-reading-instruction-be-enough/" target="_blank">Students with dyslexia struggle in Washington. Will a fresh approach to reading instruction be enough?</a> - Seattle Times, July 8, 2019</li>
+            {/* <li><a href="https://www.seattletimes.com/education-lab/students-with-dyslexia-struggle-in-washington-will-a-fresh-approach-to-reading-instruction-be-enough/" target="_blank">Students with dyslexia struggle in Washington. Will a fresh approach to reading instruction be enough?</a> - Seattle Times, July 8, 2019</li> */}
             <li><a href="https://www.seattletimes.com/education-lab/special-education-can-be-confusing-here-are-terms-and-programs-you-should-know/" target="_blank">Special education can be confusing. Here are terms and programs you should know.</a> - Seattle Times, May 24, 2019</li>
           </ul>
         </div>
