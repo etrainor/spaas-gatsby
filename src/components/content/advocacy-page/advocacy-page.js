@@ -17,8 +17,8 @@ function Advocacy () {
             <li>Attending IEP Meetings as support or on behalf of parents.
             Summarizing and advising parents on how to proceed with IEP meetings.</li>
             <li>Attending or advising on 504 Planning Meetings.</li>
-            <li>Researching and evaluating alternative education options.
-            Access to Advisory Services.</li>
+            <li>Researching and evaluating alternative education options.</li>
+            <li>Access to Advisory Services.</li>
             <li>Access to Client Portal for on-going communication exchanges.</li>
           </ul>
         </div>

@@ -34,7 +34,7 @@ function Form () {
             </label>
 
             <label>
-              <h3>Grade of Child</h3>
+              <h3>School District</h3>
               <input type="text" name="child-age" id="child-age" />
             </label>
 
