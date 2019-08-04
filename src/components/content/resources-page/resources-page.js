@@ -6,6 +6,8 @@ import Mailchimp from "../../post-template-details"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBalanceScale } from '@fortawesome/free-solid-svg-icons'
 import { faNewspaper } from '@fortawesome/free-solid-svg-icons'
+import { faBook } from '@fortawesome/free-solid-svg-icons'
+import { faBlog } from '@fortawesome/free-solid-svg-icons'
 
 
 function Resources () {
@@ -13,7 +15,7 @@ function Resources () {
     <>
       <div>
         <h1>Recommended Reading</h1>
-        {/* <h2>Blog Posts</h2>
+        {/* <h2><FontAwesomeIcon icon={faBlog} className="icon" />Blog Posts</h2>
         <div className="resources-deck">
           <div id="left-card" className="card">
             <h2>5 terms you should be familiar with when negotiating your child’s IEP. </h2>
@@ -32,7 +34,7 @@ function Resources () {
           </div>
         </div>
         <Mailchimp /> */}
-        <h2>Library</h2>
+        <h2><FontAwesomeIcon icon={faBook} className="icon" />Library</h2>
         <div className="books">
           <div className = "book-container">
             <img src="https://images-na.ssl-images-amazon.com/images/I/51HmFO63RpL._SX332_BO1,204,203,200_.jpg"/>
