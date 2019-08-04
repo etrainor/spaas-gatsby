@@ -1,4 +1,4 @@
-div {
+.resources-page {
   h1 {
     font-family: var(--major-text-font);
     font-size: 3rem;
@@ -10,10 +10,9 @@ div {
     font-family: var(--minor-text-font);
     font-size: 2rem;
     color:var(--accent-color);
-    margin: 1rem 3rem 0 3rem;
+    margin: 1rem 3rem 2rem 3rem;
     border-bottom: 3px solid var(--dark-background-color);
     padding-bottom: .75rem;
-    margin-bottom: 2rem;
   }
   .resources-deck {
     display: grid;

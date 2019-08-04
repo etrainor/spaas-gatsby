@@ -13,7 +13,7 @@ import { faBlog } from '@fortawesome/free-solid-svg-icons'
 function Resources () {
   return (
     <>
-      <div>
+      <div className="resources-page">
         <h1>Recommended Reading</h1>
         {/* <h2><FontAwesomeIcon icon={faBlog} className="icon" />Blog Posts</h2>
         <div className="resources-deck">
