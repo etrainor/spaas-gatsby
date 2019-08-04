@@ -15,7 +15,7 @@ function Resources () {
     <>
       <div className="resources-page">
         <h1>Recommended Reading</h1>
-        {/* <h2><FontAwesomeIcon icon={faBlog} className="icon" />Blog Posts</h2>
+        {/* <h2><FontAwesomeIcon icon={faBlog} width="32" className="icon" />Blog Posts</h2>
         <div className="resources-deck">
           <div id="left-card" className="card">
             <h2>5 terms you should be familiar with when negotiating your child’s IEP. </h2>
@@ -34,7 +34,7 @@ function Resources () {
           </div>
         </div>
         <Mailchimp /> */}
-        <h2><FontAwesomeIcon icon={faBook} className="icon" />Library</h2>
+        <h2><FontAwesomeIcon icon={faBook} width="32" className="icon" />Library</h2>
         <div className="books">
           <div className = "book-container">
             <img src="https://images-na.ssl-images-amazon.com/images/I/51HmFO63RpL._SX332_BO1,204,203,200_.jpg"/>
@@ -77,7 +77,7 @@ function Resources () {
             <a>Amazon Link or Button</a>
           </div> */}
         </div>
-        <h2><FontAwesomeIcon icon={faBalanceScale} className="icon" />Special Education Laws</h2>
+        <h2><FontAwesomeIcon icon={faBalanceScale} width="32" className="icon" />Special Education Laws</h2>
         <div className="outside-links">
         <ul>Federal Law
             <li><a href="/https://sites.ed.gov/idea/" target="_blank">Individuals with Disabilities Education Act (IDEA)</a></li>
@@ -92,7 +92,7 @@ function Resources () {
             <li><a href="https://www.k12.wa.us/student-success/special-education/program-improvement/technical-assistance/evaluation-and-iep" target="_blank">Evaluation and IEP Technical Assistance Module</a></li>
           </ul>
         </div>
-        <h2><FontAwesomeIcon icon={faNewspaper} className="icon" />Interesting Articles</h2>
+        <h2><FontAwesomeIcon icon={faNewspaper} width="32" className="icon" />Interesting Articles</h2>
         <div className="outside-links">
           <ul>
             <li><a href="https://www.seattletimes.com/education-lab/for-some-washington-students-with-special-needs-diagnosis-comes-too-late/" target="_blank">For some Washington Students with special needs, diagnosis is too late, help is too little</a> - Seattle Times, July 9, 2019</li>
