@@ -54,7 +54,7 @@ function Resources () {
           </div>
           <div className = "book-container">
             <img src="https://images-na.ssl-images-amazon.com/images/I/51y2GksDs7L._SX363_BO1,204,203,200_.jpg"/>
-            <p className = "title">How ot Compromise with Your School District Without Compromising Your Child</p>
+            <p className = "title">How to Compromise with Your School District Without Compromising Your Child</p>
             <p className="author">By: Gary Mayerson</p>
             {/* <p>ISBN: 978-0-9665-2668-4</p> */}
             <p className="description">The guide that every parent must have! Gary Mayerson has devoted his career in law to helping children with autism get the fair and appropriate education that they need and deserve. In this field guide, he brings parents up to speed quickly and efficiently on the ways educational bureaucracies workor more importantly, don't for children with special needs...</p>
