@@ -25,7 +25,7 @@ function Advisory () {
             <li>Applied Behavior Analysis (ABA)</li>
             <li>Applying 504 Accommodations in the classroom</li>
             <li>Resources for Children with Autism or Spectrum Diagnosis</li>
-            <li>Services for Attention and Focus </li>
+            <li>Resources for Attention and Focus </li>
             <li>Programs for Audio Processing and Filtering </li>
           </ul>
         </div>

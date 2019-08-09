@@ -6,7 +6,7 @@ function Advocacy () {
   return (
     <div className="advocacy-deck">
       <h1>Advocacy Services</h1>
-        <p>Negotiating IEP’s can be stressful, time consuming and emotional, and, can grind to a stalemate when emotions and conflict are at a high point. At SPAAS its our goal to translate and help navigate through these processes to get the best way forward for your child.  We aim to develop a set of IEP goals with you and/or your school, that will help your child be successful but also maximizes your rights as parents.  We will make sure you are getting the appropriate education your child is eligible for under the Individuals with Disabilities Act.</p>
+        <p>Negotiating IEP’s can be stressful, time consuming and emotional, and, can grind to a stalemate when emotions and conflict are at a high point. At SPAAS its our goal to translate and help you navigate through these processes to get the best way forward for your child.  We aim to develop a set of IEP goals with you and/or your school, that will help your child be successful but also maximizes your rights as parents.  We will make sure you are getting the appropriate education your child is eligible for under the Individuals with Disabilities Education Act.</p>
         <div>
           <h2>IEP Negotiations May Include:</h2>
           <ul>
