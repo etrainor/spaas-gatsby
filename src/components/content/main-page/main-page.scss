@@ -6,11 +6,12 @@
   grid-template-areas:
   ".card .card .card";
   color: var(--major-text-color);
-  margin: auto;
+  // margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
   width: 100vw;
   margin-left: 2.5%;
+  margin-right: 2.5%;
 
   .card {
     background-color: var(--light-background-color);
@@ -80,7 +81,9 @@
     // margin-left: 2.5%;
     display: flex;
     flex-direction: column;
-    width: 95vw;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90vw;
     
     #center-card {
       order: 1;
@@ -151,20 +154,14 @@
 
 @media only screen and (min-width:414px) and (max-width: 767px)  {
   .main-deck {
-    // display: grid;
-    // grid-template-columns: 30% 30% 30%;
-    // grid-column-gap: 2.5%;
-    // grid-template-areas:
-    // ".card .card .card";
     color: var(--major-text-color);
-    // margin: auto;
     margin-top: 2rem;
     margin-bottom: 0;
-    // width: 100vw;
-    // margin-left: 2.5%;
     display: flex;
     flex-direction: column;
-    width: 95vw;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90vw;
     
     #center-card {
       order: 1;
@@ -235,19 +232,13 @@
 
 @media only screen and (min-width:320px) and (max-width: 413px){
   .main-deck {
-    // display: grid;
-    // grid-template-columns: 30% 30% 30%;
-    // grid-column-gap: 2.5%;
-    // grid-template-areas:
-    // ".card .card .card";
     color: var(--major-text-color);
-    // margin: auto;
     margin-top: 2rem;
     margin-bottom: 0;
-    // width: 100vw;
-    // margin-left: 2.5%;
     display: flex;
     flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
     width: 95vw;
     
     #center-card {
