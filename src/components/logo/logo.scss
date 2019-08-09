@@ -1,6 +1,8 @@
-.logo {
-  width: 10rem;
-  height: 10rem;
+@media only screen and (min-width:1200px) {
+  .logo {
+    width: 10rem;
+    height: 10rem;
+  }
 }
 
 @media only screen and (min-width:414px) and (max-width: 767px)  {
@@ -14,5 +16,12 @@
   .logo {
     width: 5rem;
     height: 5rem;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width: 1199px){
+  .logo {
+    width: 8rem;
+    height: 8rem;
   }
 }
