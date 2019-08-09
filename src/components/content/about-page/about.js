@@ -15,7 +15,7 @@ function About () {
         
       </div>
 
-      <p>We also bring teaching experience as para educator and teaching aid, both with public and private schools. Private schools while smaller class sizes generally have no or limited services and find it harder to either implement or follow through with accommodations. Whether public or private your child deserves the chance to not just survive but thrive in their classroom.</p>
+      <p>We also bring teaching experience as para educator and teaching aid, both with public and private schools. While private schools may have smaller class sizes they generally completely lack or have limited services and find it harder to either implement or follow through with accommodations. Whether public or private your child deserves the chance to not just survive but thrive in their classroom.</p>
 
       <p>It’s these combinations of experience and knowledge we can now offer you and your family.</p>
 

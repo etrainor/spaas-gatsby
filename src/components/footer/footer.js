@@ -17,9 +17,9 @@ function Footer () {
       <div>
         © {new Date().getFullYear()} Sound Parent Advocacy and Advisory Service All Rights Reserved
       </div>
-      {/* <div className="site-design">
-        <a href="erintrainor.me">Site Designed and Developed by Erin Trainor</a>
-      </div> */}
+      <div className = "site-design">
+        <a href="https://erintrainor.me" target="_blank">Site Designed and Developed by Erin Trainor</a>
+      </div>
     </div>
   )
 }
