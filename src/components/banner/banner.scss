@@ -11,3 +11,21 @@
     background-color: var( --dark-background-color);
   }
 }
+
+@media only screen and (min-width:414px) and (max-width: 767px)  {
+  .banner {
+    .banner-photo {
+      background-image: url('../../images/banner-background.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 10rem;
+  
+    }
+    div {
+      height: 3rem;
+      background-color: var( --dark-background-color);
+      position: relative;
+    }
+  }
+}
