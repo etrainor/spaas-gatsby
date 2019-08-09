@@ -1,3 +1,6 @@
+.hamburger {
+  display:none;
+}
 nav {
   background-color: var(--dark-background-color);
   font-family: var(--minor-text-font);
@@ -57,4 +60,92 @@ nav {
     }
 
   }
+}
+
+//TODO: Add animation transitions to mobile drop menu
+@media only screen and (min-width:414px) and (max-width: 767px)  {
+  .hamburger {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--dark-background-color);
+    min-height: 3rem;
+    button {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      span {
+        color: var(--white-color);
+        font-family: var(--minor-text-font);
+        font-size: 1.5rem;
+      }
+    }
+    button:focus {
+      outline: 0;
+    }
+  }
+
+  .collapse {
+    display:none;
+  }
+
+  nav {
+    background-color: var(--dark-background-color);
+    font-family: var(--minor-text-font);
+    min-height: 3rem;
+    z-index: 2;
+    position: absolute;
+    
+    ul{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      
+      li {
+        padding: 1rem 0;
+        text-align: center;
+        margin: 0;
+        width: 100vw;
+        color: var(--white-color);
+        position: static;
+        font-size: 1.25rem;
+        
+        a{
+          text-decoration: none;
+          color: var(--white-color);
+        }
+  
+        ul {
+          visibility: visible;
+          position: static;
+          background-color: var(--accent-color);
+          width: 100vw;
+          li {
+            width: 100vw;
+            background-color: var(--accent-color);
+            text-align: center;
+            z-index: 1000;
+            font-size: 1.25rem;
+            a {
+              color: var(--white-color);
+            }
+          }
+          li:hover {
+            background-color: var(--accent-color); 
+            cursor: pointer;
+          }
+        }
+  
+      }
+      li:hover {
+        background-color: var(--dark-background-color); 
+        cursor: pointer;
+      }
+      .dropdown-menu {
+        background-color: var(--accent-color);
+      }
+  
+    }
+  }
+  
 }
