@@ -74,6 +74,8 @@ nav {
       width: 100vw;
       display: flex;
       justify-content: center;
+      -webkit-appearance: none;
+      border-radius: 0;
       span {
         color: var(--white-color);
         font-family: var(--minor-text-font);
