@@ -1,32 +1,96 @@
 @import "../themes/themes.scss";
 
-header {
-  background-color: var(--light-background-color);
-  margin-bottom: 1.45rem;
-  margin: 0 auto;
-  width: 100vw;
-  padding: .75rem;
-  
-  div {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 10rem auto;
-    grid-template-areas:
+@media only screen and (min-width:1400px) {
+  header {
+    background-color: var(--light-background-color);
+    margin-bottom: 1.45rem;
+    margin: 0 auto;
+    width: 100vw;
+    padding: .75rem;
+    
+    div {
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 10rem auto;
+      grid-template-areas:
       "img h1";
-
-    a {
-      color: var(--dark-background-color);
-      text-decoration: none;
+      
+      a {
+        color: var(--dark-background-color);
+        text-decoration: none;
+      }
+      
+      h1 {
+        margin: 0 0 0 1rem;
+        color: var(--dark-background-color);
+        font-family: var(--major-text-font);
+        font-size: 3.75rem;
+        align-self: center;
+        justify-self: start;
+        padding-top: .75rem;
+      }
     }
+  }
+}
 
-    h1 {
-      margin: 0 0 0 1rem;
-      color: var(--dark-background-color);
-      font-family: var(--major-text-font);
-      font-size: 3.5rem;
-      align-self: center;
-      justify-self: start;
-      padding-top: .75rem;
+@media only screen and (min-width:768px) and (max-width: 1199px){
+  header {
+    background-color: var(--light-background-color);
+    width: 100vw;
+    padding: .75rem;
+
+    div {
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 8rem auto;
+      grid-template-areas:
+        "img h1";
+  
+      a {
+        color: var(--dark-background-color);
+        text-decoration: none;
+      }
+  
+      h1 {
+        color: var(--dark-background-color);
+        font-family: var(--major-text-font);
+        margin: 0 3rem 0 1.5rem;
+        font-size: 3.2rem;
+        align-self: center;
+        justify-self: start;
+      }
+    }
+  }
+}
+@media only screen and (min-width:1200px) and (max-width: 1399px) {
+  header {
+    background-color: var(--light-background-color);
+    margin-bottom: 1.45rem;
+    margin: 0 auto;
+    width: 100vw;
+    padding: .75rem;
+    
+    div {
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 10rem auto;
+      grid-template-areas:
+        "img h1";
+
+      a {
+        color: var(--dark-background-color);
+        text-decoration: none;
+      }
+
+      h1 {
+        margin: 0 0 0 1rem;
+        color: var(--dark-background-color);
+        font-family: var(--major-text-font);
+        font-size: 3.2rem;
+        align-self: center;
+        justify-self: start;
+        padding-top: .75rem;
+      }
     }
   }
 }
@@ -50,6 +114,7 @@ header {
       }
   
       h1 {
+        margin: 0 0 0 1rem;
         color: var(--dark-background-color);
         font-family: var(--major-text-font);
         font-size: 1.75rem;
@@ -79,6 +144,7 @@ header {
       }
   
       h1 {
+        margin: 0 0 0 1rem;
         color: var(--dark-background-color);
         font-family: var(--major-text-font);
         font-size: 1.5rem;
