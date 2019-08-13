@@ -28,7 +28,7 @@ class Navigation extends React.Component {
         <nav className={classDropdownMenu} id="navbarSupportedContent">
           <ul className="navigation">
             <li><a href="/about-us">About</a></li>
-            <li ontouchstart="">Services
+            <li><a ontouchstart="">Services</a>
               <ul className="dropdown-menu">
                 <li><a href="/advisory-services">Advisory</a></li>
                 <li><a href="/advocacy-services">Advocacy</a></li>
