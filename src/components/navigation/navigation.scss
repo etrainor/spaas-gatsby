@@ -230,6 +230,13 @@
             background-color: var(--accent-color); 
             cursor: pointer;
           }
+          &:active {
+            li {
+              display: block;
+              background-color: var(--accent-color); 
+              cursor: pointer;
+            }
+          }
         }
   
       }
