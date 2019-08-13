@@ -308,6 +308,7 @@
           background-color: var(--accent-color);
           width: 100vw;
           li {
+            display:none;
             width: 100vw;
             background-color: var(--accent-color);
             text-align: center;
@@ -317,17 +318,20 @@
               color: var(--white-color);
             }
           }
-          li:hover {
+        }
+        &:active {
+          li {
+            display: block;
             background-color: var(--accent-color); 
             cursor: pointer;
           }
         }
   
       }
-      li:hover {
-        background-color: var(--dark-background-color); 
-        cursor: pointer;
-      }
+      // li:hover {
+      //   background-color: var(--dark-background-color); 
+      //   cursor: pointer;
+      // }
       .dropdown-menu {
         background-color: var(--accent-color);
       }
