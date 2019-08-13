@@ -226,10 +226,10 @@
               color: var(--white-color);
             }
           }
-          li:hover {
-            background-color: var(--accent-color); 
-            cursor: pointer;
-          }
+          // li:hover {
+          //   background-color: var(--accent-color); 
+          //   cursor: pointer;
+          // }
           &:active {
             li {
               display: block;
@@ -240,10 +240,10 @@
         }
   
       }
-      li:hover {
-        background-color: var(--dark-background-color); 
-        cursor: pointer;
-      }
+      // li:hover {
+      //   background-color: var(--dark-background-color); 
+      //   cursor: pointer;
+      // }
       .dropdown-menu {
         background-color: var(--accent-color);
       }
