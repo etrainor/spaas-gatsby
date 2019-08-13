@@ -120,6 +120,10 @@
           color: var(--white-color);
         }
   
+        .dropdown-menu {
+          margin-top: 1rem;
+        }
+
         ul {
           visibility: visible;
           position: static;
@@ -142,6 +146,10 @@
         }
   
       }
+      .menu-item {
+        padding-bottom: 0;
+      }
+      
       li:hover {
         background-color: var(--dark-background-color); 
         cursor: pointer;
@@ -181,9 +189,9 @@
     }
   }
 
-  // .collapse {
-  //   display:none;
-  // }
+  .collapse {
+    display:none;
+  }
 
   nav {
     background-color: var(--dark-background-color);
@@ -210,15 +218,19 @@
           text-decoration: none;
           color: var(--white-color);
         }
-  
+        
+        .dropdown-menu {
+          margin-top: 1rem;
+        }
         ul {
+          
           visibility: visible;
           position: static;
           background-color: var(--accent-color);
           width: 100vw;
+          
           li {
             width: 100vw;
-            display:none;
             background-color: var(--accent-color);
             text-align: center;
             z-index: 1000;
@@ -227,24 +239,20 @@
               color: var(--white-color);
             }
           }
-          // li:hover {
-          //   background-color: var(--accent-color); 
-          //   cursor: pointer;
-          // }
-        }
-        &:active {
-          li {
-            display: block;
+          li:hover {
             background-color: var(--accent-color); 
             cursor: pointer;
           }
         }
-  
+        
       }
-      // li:hover {
-      //   background-color: var(--dark-background-color); 
-      //   cursor: pointer;
-      // }
+      .menu-item {
+        padding-bottom: 0;
+      }
+      li:hover {
+        background-color: var(--dark-background-color); 
+        cursor: pointer;
+      }
       .dropdown-menu {
         background-color: var(--accent-color);
       }
@@ -309,14 +317,17 @@
           text-decoration: none;
           color: var(--white-color);
         }
-  
+        
+        .dropdown-menu {
+          margin-top: 1rem;
+        }
+
         ul {
           visibility: visible;
           position: static;
           background-color: var(--accent-color);
           width: 100vw;
           li {
-            display:none;
             width: 100vw;
             background-color: var(--accent-color);
             text-align: center;
@@ -326,20 +337,20 @@
               color: var(--white-color);
             }
           }
-        }
-        &:active {
-          li {
-            display: block;
+          li:hover {
             background-color: var(--accent-color); 
             cursor: pointer;
           }
         }
   
       }
-      // li:hover {
-      //   background-color: var(--dark-background-color); 
-      //   cursor: pointer;
-      // }
+      .menu-item {
+        padding-bottom: 0;
+      }
+      li:hover {
+        background-color: var(--dark-background-color); 
+        cursor: pointer;
+      }
       .dropdown-menu {
         background-color: var(--accent-color);
       }
