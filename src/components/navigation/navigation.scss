@@ -218,6 +218,7 @@
           width: 100vw;
           li {
             width: 100vw;
+            display:none;
             background-color: var(--accent-color);
             text-align: center;
             z-index: 1000;
@@ -230,12 +231,12 @@
           //   background-color: var(--accent-color); 
           //   cursor: pointer;
           // }
-          &:active {
-            li {
-              display: block;
-              background-color: var(--accent-color); 
-              cursor: pointer;
-            }
+        }
+        &:active {
+          li {
+            display: block;
+            background-color: var(--accent-color); 
+            cursor: pointer;
           }
         }
   
