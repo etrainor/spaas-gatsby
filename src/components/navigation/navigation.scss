@@ -164,11 +164,18 @@
         width: 60vw;
       }
       li:hover {
-        background-color: var(--dark-background-color); 
+        background-color: var(--accent-color); 
         cursor: pointer;
+        color: var(--white-color);
       }
       .dropdown-menu {
         background-color: var(--dark-background-color);
+
+        .submenu {
+          a:hover {
+          color: var(--major-text-color);
+          }
+        }
       }
   
     }
@@ -276,11 +283,18 @@
         width: 60vw;
       }
       li:hover {
-        background-color: var(--dark-background-color); 
+        background-color: var(--accent-color); 
         cursor: pointer;
+        color: var(--major-text-color);
       }
       .dropdown-menu {
         background-color: var(--dark-background-color);
+
+        .submenu {
+          a:hover {
+          color: var(--major-text-color);
+          }
+        }
       }
   
     }
@@ -392,9 +406,16 @@
       li:hover {
         background-color: var(--dark-background-color); 
         cursor: pointer;
+        color: var(--major-text-color);
       }
       .dropdown-menu {
         background-color: var(--dark-background-color);
+
+        .submenu {
+          a:hover {
+          color: var(--major-text-color);
+          }
+        }
       }
   
     }

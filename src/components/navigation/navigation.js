@@ -30,17 +30,17 @@ class Navigation extends React.Component {
             <li><a href="/about-us">About</a></li>
             <li className="menu-item">Services
               <ul className="dropdown-menu">
-                <li><a  href="/advisory-services">Advisory</a></li>
-                <li><a href="/advocacy-services">Advocacy</a></li>
+                <li className="submenu"><a  href="/advisory-services">Advisory</a></li>
+                <li className="submenu"><a href="/advocacy-services">Advocacy</a></li>
               </ul>
             </li>
 
             <li className="menu-item">Resources
               <ul className="dropdown-menu">
-                <li><a
+                <li className="submenu"><a
                 //TODO: eventually set this form link up as a modal
                 href="https://www.dropbox.com/s/f7e4oiu3lkzgdiu/New%20Client%20Information.docx?dl=0" target="_blank">New Client Form</a></li>
-                <li><a href="/resources">Recommended Reading</a></li>
+                <li className="submenu"><a href="/resources">Recommended Reading</a></li>
               </ul>
             </li>
             {/* <li>News
