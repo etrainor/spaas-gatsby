@@ -22,7 +22,7 @@ function Advocacy () {
             <li>Access to Client Portal for on-going communication exchanges.</li>
           </ul>
         </div>
-        <h2>Why chose Advocacy Services?</h2> 
+        <h2 className="sub-heading">Why chose Advocacy Services?</h2> 
         <p>You don’t have to! But the nature of IEP negotiations could be a series of email exchanges, phone calls, skype calls, working notes and research each taking small chunks of time.  A retainer is a regular monthly fee billed on the 1st of each month.  Once we have had an understanding of what is required to assist you, we can put together an estimate of hours required and length of time to complete and divide it into equal payments.</p> 
         <div className="call-to-action">
           <p>Have questions? You can reach us by calling our office at <a href="tel:4252708424">425-270-8424</a>, or using the Contact Us button below.</p>

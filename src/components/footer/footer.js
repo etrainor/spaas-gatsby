@@ -14,7 +14,7 @@ function Footer () {
         <a href="/contact-form">Contact</a>
       </div>
 
-      <div>
+      <div className="copyright">
         © {new Date().getFullYear()} Sound Parent Advocacy and Advisory Service All Rights Reserved
       </div>
       <div className = "site-design">
