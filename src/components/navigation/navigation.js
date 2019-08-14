@@ -22,7 +22,7 @@ class Navigation extends React.Component {
       <>
         <div className="hamburger">
           <button onClick={this.toggleNavbar}>
-            <span className="navbar-toggler-icon">☰ Menu</span>
+            <span className="navbar-toggler-icon">☰</span>
           </button>
         </div>
         <nav className={classDropdownMenu} id="navbarSupportedContent">
