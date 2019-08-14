@@ -74,6 +74,7 @@
     min-height: 3rem;
     button {
       width: 100vw;
+      padding-left: 1rem;
       display: flex;
       justify-content: center;
       -webkit-appearance: none;
@@ -84,6 +85,8 @@
         color: var(--white-color);
         font-family: var(--minor-text-font);
         font-size: 1.5rem;
+        width: 100vw;
+        text-align: start;
       }
     }
     button:focus {
@@ -101,6 +104,7 @@
     min-height: 3rem;
     z-index: 2;
     position: absolute;
+    width: 100vw;
     
     ul{
       display: flex;
@@ -108,10 +112,11 @@
       justify-content: flex-end;
       
       li {
-        padding: 1rem 0;
+        padding: 1rem 1rem;
         text-align: center;
-        margin: 0;
+        margin: 0 1rem 0 0;
         width: 100vw;
+        text-align: start;
         color: var(--white-color);
         position: static;
         font-size: 1.25rem;
@@ -120,43 +125,50 @@
           text-decoration: none;
           color: var(--white-color);
         }
-  
+        
         .dropdown-menu {
           margin-top: 1rem;
+          border-top: 1px solid var(--accent-color);
+          width: 90vw;
         }
-
         ul {
+          
           visibility: visible;
           position: static;
-          background-color: var(--accent-color);
+          background-color: var(--dark-background-color);
           width: 100vw;
+          
           li {
+            // padding-right: 1rem;
             width: 100vw;
-            background-color: var(--accent-color);
-            text-align: center;
+            background-color: var(--dark-background-color);
+            text-align: start;
             z-index: 1000;
             font-size: 1.25rem;
             a {
-              color: var(--white-color);
+              padding-left: .5rem;
+              color: var(--accent-color);
             }
           }
           li:hover {
             background-color: var(--accent-color); 
             cursor: pointer;
+            color: var(--major-text-color);
           }
         }
-  
+        
       }
       .menu-item {
         padding-bottom: 0;
+        // margin-right: 2rem;
+        width: 60vw;
       }
-      
       li:hover {
         background-color: var(--dark-background-color); 
         cursor: pointer;
       }
       .dropdown-menu {
-        background-color: var(--accent-color);
+        background-color: var(--dark-background-color);
       }
   
     }
@@ -287,15 +299,20 @@
     button {
       width: 100vw;
       display: flex;
+      padding-left: 1rem;
       justify-content: center;
       -webkit-appearance: none;
       border-radius: 0;
       border: none;
       background-color: var(--dark-background-color);
+
+      
       span {
         color: var(--white-color);
         font-family: var(--minor-text-font);
         font-size: 1.5rem;
+        width: 100vw;
+        text-align: start;
       }
     }
     button:focus {
@@ -313,6 +330,7 @@
     min-height: 3rem;
     z-index: 2;
     position: absolute;
+    width: 100vw;
     
     ul{
       display: flex;
@@ -320,10 +338,11 @@
       justify-content: flex-end;
       
       li {
-        padding: 1rem 0;
+        padding: 1rem 1rem;
         text-align: center;
-        margin: 0;
+        margin: 0 1rem 0 0;
         width: 100vw;
+        text-align: start;
         color: var(--white-color);
         position: static;
         font-size: 1.25rem;
@@ -335,39 +354,47 @@
         
         .dropdown-menu {
           margin-top: 1rem;
+          border-top: 1px solid var(--accent-color);
+          width: 90vw;
         }
-
         ul {
+          
           visibility: visible;
           position: static;
-          background-color: var(--accent-color);
+          background-color: var(--dark-background-color);
           width: 100vw;
+          
           li {
+            // padding-right: 1rem;
             width: 100vw;
-            background-color: var(--accent-color);
-            text-align: center;
+            background-color: var(--dark-background-color);
+            text-align: start;
             z-index: 1000;
             font-size: 1.25rem;
             a {
-              color: var(--white-color);
+              padding-left: .5rem;
+              color: var(--accent-color);
             }
           }
           li:hover {
             background-color: var(--accent-color); 
             cursor: pointer;
+            color: var(--major-text-color);
           }
         }
-  
+        
       }
       .menu-item {
         padding-bottom: 0;
+        // margin-right: 2rem;
+        width: 60vw;
       }
       li:hover {
         background-color: var(--dark-background-color); 
         cursor: pointer;
       }
       .dropdown-menu {
-        background-color: var(--accent-color);
+        background-color: var(--dark-background-color);
       }
   
     }
