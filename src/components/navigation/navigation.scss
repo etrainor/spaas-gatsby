@@ -73,7 +73,7 @@
     background-color: var(--dark-background-color);
     min-height: 3rem;
     button {
-      width: 100vw;
+      // width: 100vw;
       padding-left: 1rem;
       display: flex;
       justify-content: center;
@@ -85,7 +85,7 @@
         color: var(--white-color);
         font-family: var(--minor-text-font);
         font-size: 1.5rem;
-        width: 100vw;
+        // width: 100vw;
         text-align: start;
       }
     }
@@ -115,7 +115,6 @@
         padding: 1rem 1rem;
         text-align: center;
         margin: 0 1rem 0 0;
-        width: 100vw;
         text-align: start;
         color: var(--white-color);
         position: static;
@@ -129,18 +128,17 @@
         .dropdown-menu {
           margin-top: 1rem;
           border-top: 1px solid var(--accent-color);
-          // width: 90vw;
+          // width: 97vw;
         }
         ul {
           
           visibility: visible;
           position: static;
           background-color: var(--dark-background-color);
-          width: 100vw;
+          // width: 100vw;
           
           li {
             // padding-right: 1rem;
-            width: 100vw;
             background-color: var(--dark-background-color);
             text-align: start;
             z-index: 1000;
@@ -192,7 +190,7 @@
     background-color: var(--dark-background-color);
     min-height: 3rem;
     button {
-      width: 100vw;
+      // width: 100vw;
       padding-left: 1rem;
       display: flex;
       justify-content: center;
@@ -201,7 +199,7 @@
       border: none;
       background-color: var(--dark-background-color);
       span {
-        width: 100vw;
+        // width: 100vw;
         text-align: start;
         color: var(--white-color);
         font-family: var(--minor-text-font);
@@ -234,7 +232,6 @@
         padding: 1rem 1rem;
         text-align: center;
         margin: 0 1rem 0 0;
-        width: 100vw;
         text-align: start;
         color: var(--white-color);
         position: static;
@@ -248,18 +245,17 @@
         .dropdown-menu {
           margin-top: 1rem;
           border-top: 1px solid var(--accent-color);
-          // width: 90vw;
+          // width: 97vw;
         }
         ul {
           
           visibility: visible;
           position: static;
           background-color: var(--dark-background-color);
-          width: 100vw;
+          // width: 100vw;
           
           li {
             // padding-right: 1rem;
-            width: 100vw;
             background-color: var(--dark-background-color);
             text-align: start;
             z-index: 1000;
@@ -311,7 +307,7 @@
     background-color: var(--dark-background-color);
     min-height: 3rem;
     button {
-      width: 100vw;
+      // width: 100vw;
       display: flex;
       padding-left: 1rem;
       justify-content: center;
@@ -325,7 +321,7 @@
         color: var(--white-color);
         font-family: var(--minor-text-font);
         font-size: 1.5rem;
-        width: 100vw;
+        // width: 100vw;
         text-align: start;
       }
     }
@@ -355,11 +351,11 @@
         padding: 1rem 1rem;
         text-align: center;
         margin: 0 1rem 0 0;
-        width: 100vw;
         text-align: start;
         color: var(--white-color);
         position: static;
         font-size: 1.25rem;
+        // width: 87vw !important;
         
         a{
           text-decoration: none;
@@ -369,22 +365,21 @@
         .dropdown-menu {
           margin-top: 1rem;
           border-top: 1px solid var(--accent-color);
-          // width: 90vw;
+          // width: 97vw;
         }
         ul {
           
           visibility: visible;
           position: static;
           background-color: var(--dark-background-color);
-          width: 100vw;
           
           li {
             // padding-right: 1rem;
-            width: 100vw;
             background-color: var(--dark-background-color);
             text-align: start;
             z-index: 1000;
             font-size: 1.25rem;
+            // width: 87vw !important;
             a {
               padding-left: .5rem;
               color: var(--accent-color);
@@ -394,6 +389,7 @@
             background-color: var(--accent-color); 
             cursor: pointer;
             color: var(--major-text-color);
+            // width: 87vw !important;
           }
         }
         
@@ -412,6 +408,7 @@
         background-color: var(--dark-background-color);
 
         .submenu {
+          // width: 87vw !important;
           a:hover {
           color: var(--major-text-color);
           }
