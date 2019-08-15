@@ -3,6 +3,7 @@
     display:none;
   }
   nav {
+    width: 100%;
     background-color: var(--dark-background-color);
     font-family: var(--minor-text-font);
     min-height: 3rem;
@@ -119,6 +120,7 @@
         color: var(--white-color);
         position: static;
         font-size: 1.25rem;
+        width: 100%;
         
         a{
           text-decoration: none;
@@ -237,6 +239,7 @@
         color: var(--white-color);
         position: static;
         font-size: 1.25rem;
+        width: 100%;
         
         a{
           text-decoration: none;
@@ -357,6 +360,7 @@
         color: var(--white-color);
         position: static;
         font-size: 1.25rem;
+        width: 100%;
         // width: 87vw !important;
         
         a{
