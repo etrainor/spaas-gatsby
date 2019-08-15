@@ -5,7 +5,7 @@
     background-color: var(--light-background-color);
     margin-bottom: 1.45rem;
     margin: 0 auto;
-    width: 100vw;
+    // width: 100vw;
     padding: .75rem;
     
     div {
@@ -36,7 +36,7 @@
 @media only screen and (min-width:768px) and (max-width: 1199px){
   header {
     background-color: var(--light-background-color);
-    width: 100vw;
+    // width: 100vw;
     padding: .75rem;
 
     div {
@@ -67,7 +67,7 @@
     background-color: var(--light-background-color);
     margin-bottom: 1.45rem;
     margin: 0 auto;
-    width: 100vw;
+    // width: 100vw;
     padding: .75rem;
     
     div {
@@ -98,7 +98,7 @@
 @media only screen and (min-width:414px) and (max-width: 767px) {
   header {
     background-color: var(--light-background-color);
-    width: 100vw;
+    // width: 100vw;
     padding: .75rem;
 
     div {
@@ -128,7 +128,7 @@
 @media only screen and (min-width:320px) and (max-width: 413px){
   header {
     background-color: var(--light-background-color);
-    width: 100vw;
+    width: 100%;
     padding: .75rem;
 
     div {
