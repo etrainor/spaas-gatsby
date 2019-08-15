@@ -143,6 +143,7 @@
             text-align: start;
             z-index: 1000;
             font-size: 1.25rem;
+            width: 100%;
             a {
               padding-left: .5rem;
               color: var(--accent-color);
@@ -159,7 +160,7 @@
       .menu-item {
         padding-bottom: 0;
         // margin-right: 2rem;
-        // width: 60vw;
+        width: 100%;
       }
       li:hover {
         background-color: var(--accent-color); 
@@ -260,6 +261,7 @@
             text-align: start;
             z-index: 1000;
             font-size: 1.25rem;
+            width: 100%;
             a {
               padding-left: .5rem;
               color: var(--accent-color);
@@ -276,7 +278,7 @@
       .menu-item {
         padding-bottom: 0;
         // margin-right: 2rem;
-        // width: 60vw;
+        width: 100%;
       }
       li:hover {
         background-color: var(--accent-color); 
@@ -379,7 +381,7 @@
             text-align: start;
             z-index: 1000;
             font-size: 1.25rem;
-            // width: 87vw !important;
+            width: 100%;
             a {
               padding-left: .5rem;
               color: var(--accent-color);
@@ -397,7 +399,7 @@
       .menu-item {
         padding-bottom: 0;
         // margin-right: 2rem;
-        // width: 60vw;
+        width: 100%;
       }
       li:hover {
         background-color: var(--dark-background-color); 
